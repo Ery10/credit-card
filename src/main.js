@@ -16,8 +16,6 @@ function setCardType(type) {
   ccLogo.setAttribute("src", `cc-${type}.svg`)
 }
 
-setCardType("visa")
-
 const securityCode = document.querySelector("#security-code")
 const securityCodePattern = {
   mask: "0000",
